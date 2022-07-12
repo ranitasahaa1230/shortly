@@ -13,12 +13,12 @@ body {
 
 .navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap:2rem;
-  width:4rem;
-  margin: 0 4rem;
+  margin: 0 4.5rem;
 }
+
 h2{
   font-size: 1.5rem;
 }
@@ -68,6 +68,27 @@ li:hover{
   gap:1rem;
   padding: 0;
   margin: 0;
+}
+
+.banner{
+  background-image: url('../public/Meteor.png');
+  padding: 1.5rem;
+}
+.banner-container{
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+button{
+  background-color: #2acfcf;
+  border: none;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 /* Primary
 - Cyan: #2acfcf
