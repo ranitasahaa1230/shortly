@@ -1,12 +1,15 @@
-import {facebook} from "../public/facebook.svg"
+import Image from 'next/image';
+import logo from '../assets/logo.svg';
+
 const Footer = () => {
 
   return (
     <footer className="footer">
         <div className="contain">
-          <h2>Shortly</h2>
+            {/* <img src={logo} alt="react logo"/> */}
+            <Image src='/assets/logo.svg' height={300} width={30}/>
         <ul className="container-flex">
-        <img src={facebook}/>
+        {/* <img src={facebook}/> */}
           <li><img src="../public/icon-twitter.svg"/></li>
           <li><img src="../public/icon-pinterest.svg"/></li>
           <li><img src="../public/icon-instagram.svg"/></li>
